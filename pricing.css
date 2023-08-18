@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.pricing {
+    background-color: #f5f5f5;
+    padding-bottom: 50px;
+}
+
+.pricing_header {
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.pricing_separator {
+    width: 170px;
+    margin: auto;
+    border: 1px solid #EC7979;
+}
+
+.pricing_subheader {
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 40px;
+}
+
+.pricing_sections {
+    margin: auto;
+    width: fit-content;
+    height: 530px;
+    margin-bottom: 50px;
+
+}
+
+.pricing_sections section {
+    width: 370px;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.pricing_sections h4 {
+    height: 60px;
+    background-color: #333333;
+    font-family: "Open Sans", sans-serif;
+    color: #f5f5f5;
+    text-align: center;
+    line-height: 60px;
+    border: 2px solid #f5f5f5;
+    font-size: 24px;
+}
+
+.pricing_sections h3 {
+    height: 100px;
+    background-color: #333333;
+    font-family: "Open Sans", sans-serif;
+    color: #f5f5f5;
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid #f5f5f5;
+    font-size: 36px;
+}
+
+.pricing_sections section h5 {
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    font-family: "Raleway", sans-serif;
+    color: #86878B;
+    text-align: center;
+    border: 2px solid #f5f5f5;
+    background-color: #fff;
+}
+
+.pricing_sections section h5:first-of-type {
+    background-color: #333333;
+}
+
+.pricing_sections section:not(:nth-of-type(2)) {
+    margin-top: 20px;
+}
+
+.pricing_sections section:nth-of-type(2) {
+    margin: 0 30px;
+}

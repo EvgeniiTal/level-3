@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.about {
+    width: 1170px;
+    width: fit-content;
+    margin: calc((100vh - 542.4px) / 2) auto 0;
+}
+.about_header {
+    height: 150px;
+    /* последнее свойство будет главным */
+    text-align: center;
+    line-height: 150px; 
+    /* Это выравнивание по вертикали */
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+.about_separator {
+    width: 170px;
+    margin: auto;
+    /* выравнивает элемент внутри родителя по горизонтали по центру */
+    border: 1px solid #EC7979;
+}
+.about_separator2 {
+    width: 170px;
+    margin: auto;
+    /* выравнивает элемент внутри родителя по горизонтали по центру */
+    border: .5px solid #EC7979;   
+}
+.about_subheader {
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 50px;
+}
+.about_article {
+    width: 370px;
+    display: inline-block;
+    /* превратили блочный элемент в строчно-блочный  */
+    padding: 16px;
+    margin: 30px;
+}
+.about_article_header {
+    height: 100px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+    /* line-height = height */
+    font-family: "Open Sans", sans-serif ;
+    font-weight: 700;
+}
+.about_article_paragraph {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.about_article img {
+    margin: auto;
+    display: block;
+}
+.tabs{
+    width: fit-content;
+    margin: calc((100vh - 542.4px) / 2) auto 0;
+}
+
+.tabs__article {
+    width: 1170;
+    width: max-content;
+    border: 1px solid #C6CBCD;
+}
+
+.tabs__article section{
+    display: inline-block;
+    width: 570px;
+    margin-left: 100px;
+}
+
+.tabs__article h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    height: 124px;
+    line-height: 124px;
+    margin-bottom: 27px;
+}
+
+.tabs__article h5 {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    margin-bottom: 27px;
+}
+
+.tabs__article button{
+    width: 270px;
+    height: 58px;
+    background-color: #EC7979;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+img{
+    vertical-align: top;
+    margin-left: 30px;
+    margin-right: -4px;
+}
+
+.tabs nav div {
+    display: inline-block;
+    margin-right: 4px;
+    width: 184px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.tabs nav div a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.tabs nav div:first-of-type {
+    border: 1px solid #C6CBCD;
+    border-bottom-color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: -1px;
+}
