@@ -75,3 +75,10 @@ img{
     border-radius: 5px 5px 0px 0px;
     margin-bottom: -1px;
 }
+.button3:hover {
+    background-color: #AB4949;
+}
+.button3:active {
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_header {
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.contact_separator {
+    width: 170px;
+    margin: auto;
+    border: 1px solid #EC7979;
+}
+
+.contact_subheader {
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+input {
+    width: 571px;
+    height: 38px;
+    border-color: transparent;
+    border-bottom: 1px solid #BDBDBD;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+
+}
+
+.contact_inputs_message {
+    width: 570px;
+    height: 214px;
+    border-color: transparent;
+    border-bottom: 1px solid #BDBDBD;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    resize: none;
+}
+
+.contact button {
+    width: 370px;
+    height: 58px;
+    background-color: #EC7979;
+    border: 2px solid #fff;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.contact section {
+    display: flex;
+
+    height: 215px;
+}
+
+.contact section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.button3:hover {
+    background-color: #AB4949;
+}
+
+.button3:active {
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
