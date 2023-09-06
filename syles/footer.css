@@ -5,15 +5,16 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #000;
 }
 
 footer img {
-    width: 53.2px;
-    height: 53.2px;
+    width: 53px;
+    height: 53px;
 }
 
 .social-icons {
+    width: 565px;
     margin-top: 35px;
     display: flex;
     justify-content: space-between;

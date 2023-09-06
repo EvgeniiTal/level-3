@@ -6,14 +6,14 @@
 
 }
 
-.social_icons   {
+.social__icons   {
     display: flex;
     justify-content: space-between;
     height: 70px;
     margin-top: 35px;
     margin-bottom: 35px;
 }
-.social_texts-header {
+.social__texts h4 {
     height: 60px;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
@@ -21,7 +21,7 @@
     color: #333333;
     line-height: 60px;
 }
-.social_texts-subheader {
+.social__texts h5 {
     height: 42px;
     width: 470px;
     font-family: "Raleway", sans-serif;
@@ -31,6 +31,6 @@
     margin-bottom: 18px;
     margin-top: 18px;
 }
-.social_texts {
+.social__texts {
     margin-right: 30px;
 } 

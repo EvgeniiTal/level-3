@@ -1,6 +1,11 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
 header {
-    background-color: #000000;
+    background-color: #000;
     display: flex;
     justify-content: space-around;
 }
@@ -12,12 +17,9 @@ header nav {
     justify-content: space-between;
     margin-left: 0px;
 }
-header nav div {
+header nav button {
     width: 114px;
     text-align: center;
-}
-
-header nav div a {
     height: 75px;
     line-height: 75px;
     font-family: "Open Sans", sans-serif;
@@ -25,14 +27,14 @@ header nav div a {
     font-size: 14px;
     color: #FFFFFF;
     text-align: center;
+    background: transparent;
+    border: none;
 }
 
-a:link {
-    text-decoration: none;
+header nav button:hover {
+    background-color: #EC7979;
+    cursor: pointer;
 }
-header nav div:hover {
-    background-color: #EC7979
-}
-header nav div:active {
+header nav button:active {
     background-color: #AB4949;
 }

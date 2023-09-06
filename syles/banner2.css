@@ -17,7 +17,7 @@
 	background-color:rgba(0, 0, 0, .5);
 }
 
-.banner-2_header {
+.banner-2 h2 {
     height: 150px;
     text-align: center;
     line-height: 150px;
@@ -25,22 +25,23 @@
     font-size: 36px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    color: #fff;
+    color: #FFFFFF;
     margin-top: 50px;
     z-index: 1;
+    text-transform: uppercase;
 }
 
-.banner-2_separator {
+.banner-2__separator {
     width: 170px;
     margin: auto;
-    border: 1px solid #fff;
+    border: 1px solid #FFFFFF;
     z-index: 1;
 }
 
-.banner-2_subheader {
+.banner-2 h5 {
     font-size: 18px;
     text-align: center;
-    color: #fff;
+    color: #FFFFFF;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     margin-top: 40px;
@@ -48,20 +49,20 @@
     z-index: 1;
 }
 
-.button1 {
+.banner-2 button {
     width: 370px;
     height: 58px;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #FFFFFF;
     font-family: "Open Sans", sans-serif;
-    color: #fff;
+    color: #FFFFFF;
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 50px;
     z-index: 1;
 }
 
-.button1:hover {
+.banner-2 button:hover {
     background-color: transparent;
     border-color: #EC7979;
     font-family: "Open Sans", sans-serif;
@@ -69,9 +70,10 @@
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
-.button1:active {
+.banner-2 button:active {
     background-color: #AB4949;
-    color: #fff;
+    color: #FFFFFF;
 }

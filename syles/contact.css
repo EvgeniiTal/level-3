@@ -1,12 +1,19 @@
 
 .contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact__container {
+    width: 1170px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.contact_header {
+.contact h2 {
     height: 150px;
     text-align: center;
     line-height: 150px;
@@ -17,24 +24,17 @@
     margin-top: 50px;
 }
 
-.contact_separator {
-    width: 170px;
-    margin: auto;
-    border: 1px solid #EC7979;
-}
-
-.contact_subheader {
+.contact h5 {
     font-size: 18px;
     text-align: center;
     color: #86878B;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    margin-top: 40px;
-    margin-bottom: 90px;
+    margin: 40px 0 90px;
 }
 
 input {
-    width: 571px;
+    width: 570px;
     height: 38px;
     border-color: transparent;
     border-bottom: 1px solid #BDBDBD;
@@ -43,7 +43,7 @@ input {
     font-weight: 400;
 }
 
-.contact_inputs_message {
+.contact textarea {
     width: 570px;
     height: 214px;
     border: none;
@@ -59,13 +59,12 @@ input {
     width: 370px;
     height: 58px;
     background-color: #EC7979;
-    border: 2px solid #fff;
+    border: 2px solid #FFFFFF;
     font-family: "Open Sans", sans-serif;
-    color: #fff;
+    color: #FFFFFF;
     font-weight: 600;
     font-size: 18px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .contact section {
@@ -80,16 +79,12 @@ input {
     justify-content: space-between;
 }
 
-textarea:focus,
-input:focus {
-    outline: none;
-}
-
-.button3:hover {
+.contact button:hover {
     background-color: #AB4949;
+    cursor: pointer;
 }
 
-.button3:active {
+.contact button:active {
     background-color: #EC7979;
-    box-shadow: inset 0px 0px 10px #AB4949;
+    box-shadow: inset 0 0 10px #AB4949;
 }

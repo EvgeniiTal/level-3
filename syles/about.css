@@ -1,68 +1,60 @@
-
-*{
-    margin: 0;
-    padding: 0;
-}
 .about {
-    width: 1170px;
-    width: fit-content;
+    width: 100%;
+    height: 100vh;
     margin: calc((100vh - 542.4px) / 2) auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.about_header {
+.about-container{
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about h2 {
     height: 150px;
-    /* последнее свойство будет главным */
     text-align: center;
     line-height: 150px; 
-    /* Это выравнивание по вертикали */
     text-transform: uppercase;
     font-size: 36px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
 }
-.about_separator {
+.separator--pink {
     width: 170px;
-    margin: auto;
-    /* выравнивает элемент внутри родителя по горизонтали по центру */
-    border: 1px solid #EC7979;
-}
-.about_separator2 {
-    width: 170px;
-    margin: auto;
-    /* выравнивает элемент внутри родителя по горизонтали по центру */
     border: .5px solid #EC7979;   
 }
-.about_subheader {
+.about__subheader {
     font-size: 18px;
     text-align: center;
     color: #86878B;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    margin: 50px;
+    margin:40px 0 71px;
 }
-.about_article {
+.about section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about article {
     width: 370px;
-    display: inline-block;
-    /* превратили блочный элемент в строчно-блочный  */
-    padding: 16px;
-    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.about_article_header {
+.about article h4 {
     height: 100px;
     font-size: 24px;
     text-align: center;
     line-height: 100px;
-    /* line-height = height */
     font-family: "Open Sans", sans-serif ;
     font-weight: 700;
 }
-.about_article_paragraph {
+.about article p {
     font-size: 18px;
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-}
-
-.about_article img {
-    margin: auto;
-    display: block;
 }
