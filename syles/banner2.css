@@ -1,13 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
-
-* {
-    box-sizing: border-box;
-}
 
 .banner-2 {
     position: relative;
-    background-image: url(./images/banner2.png);
+    background-image: url(../images/banner2.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
