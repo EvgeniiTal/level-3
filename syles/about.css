@@ -6,11 +6,12 @@
     justify-content: center;
     align-items: center;
 }
-.about-container{
+.about__container{
     width: 1170px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 60px;
 }
 .about h2 {
     height: 150px;
@@ -23,6 +24,7 @@
 }
 .separator--pink {
     width: 170px;
+    margin: auto;
     border: .5px solid #EC7979;   
 }
 .about__subheader {
@@ -57,4 +59,34 @@
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
+}
+@media screen and (max-width: 1024px) {
+    .about__container {
+        width: 992px;
+    }
+    .about h2 {
+        height: 120px;
+        line-height: 120px;
+        font-size: 24px;
+    }
+    .about__subheader {
+        height: 16px;
+        line-height: 16px;
+        font-size: 14px;
+    }
+    .about article {
+        width: 315px;
+    }
+    .about article img {
+        width: 147px;
+        height: 147px;
+    }
+    .about article h4 {
+        height: 80px;
+        line-height: 80px;
+        font-size: 18px;
+    }
+    .about article p {
+        font-size: 14px;
+    }
 }

@@ -5,12 +5,12 @@
     justify-content: center;
     align-items: center;
 }
-.tabs-container {
+.tabs__container {
     width: 1170px;
 }
 
 .tabs__article {
-    width: 1170;
+    width: 100%;
     width: max-content;
     border: 1px solid #C6CBCD;
 }
