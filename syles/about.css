@@ -73,6 +73,7 @@
         height: 16px;
         line-height: 16px;
         font-size: 14px;
+        margin: 32px 0 32px;
     }
     .about article {
         width: 315px;
@@ -89,4 +90,46 @@
     .about article p {
         font-size: 14px;
     }
+    .separator--pink {
+        width: 140px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .about {
+        height: 1200px;
+    }
+    .about__container {
+        width: 290px;
+        height: 1200px;
+    }
+    .about h2 {
+        font-size: 18px;
+    }
+    .separator--pink{
+        width: 135px;
+        margin: 0;
+    }
+    .about__subheader {
+        height: 30px;
+        text-align: center;
+        line-height: 15px;
+        font-size: 13px;
+        margin: 25px 0 50px;
+    }
+    .about article {
+        width: 290px;
+        height: 320px;
+        justify-content: center;
+    }
+    .about section {
+        display: flex;
+        flex-direction: column;
+    }
+    .about article p {
+        height: 80px;
+        text-align: center;
+        line-height: 15px;
+    }
+
+
 }
